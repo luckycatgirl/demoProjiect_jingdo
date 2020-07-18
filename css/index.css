@@ -1,0 +1,284 @@
+.focusnow {
+    height: 467px;
+}
+
+.main {
+    position: relative;
+    width: 722px;
+    height: 457px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.main img {
+    height: 457px;
+}
+
+.newsflash {
+    width: 250px;
+    height: 457px;
+    float: right;
+    margin-top: 10px;
+}
+
+.arr-l,
+.arr-r {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: rgba(255, 255, 255);
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    ;
+}
+
+.arr-r {
+    right: 0px;
+}
+
+.main .circle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+}
+
+.main .circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+.newsflash .news {
+    height: 161px;
+    border: 1px solid #cccccc;
+}
+
+.newsflash .news_hd {
+    height: 32px;
+    padding-left: 10px;
+    border-bottom: 1px dotted #ccc;
+    line-height: 32px;
+}
+
+.news_hd .da {
+    float: left;
+    font-size: 14px;
+    color: #333333;
+}
+
+.news_hd .xiao {
+    float: right;
+    font-size: 12px;
+    color: #333333;
+}
+
+.newsflash .news_bd {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.newsflash .news_bd li {
+    height: 23px;
+    line-height: 23px;
+}
+
+.newsflash .lifestyle {
+    height: 210px;
+    overflow: hidden;
+    border-left: 1px solid #cccccc;
+}
+
+.newsflash .lifestyle ul {
+    width: 257px;
+}
+
+.newsflash .lifestyle a {
+    display: block;
+    float: left;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    width: 61px;
+    height: 69px;
+    text-align: center;
+}
+
+.newsflash .lifestyle i {
+    display: block;
+    width: 22px;
+    height: 24px;
+    margin: 12px auto 10px;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.newsflash .lifestyle .huafei {
+    background-position: -18px -16px;
+}
+
+.newsflash .bargin {
+    margin-top: 8px;
+}
+
+
+/* ----------------------------------------------------------main end---------- */
+
+.recommend {
+    height: 162px;
+    margin-top: 10px;
+    background-color: springgreen;
+}
+
+.recommend .recom_hd {
+    width: 200px;
+    height: 162px;
+    text-align: center;
+    background-color: #666666;
+}
+
+.recommend .recom_hd img {
+    margin: 28px auto 8px;
+}
+
+.recommend .recom_hd h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.recommend .recom_bd li {
+    float: left;
+    width: 237px;
+    height: 152px;
+    padding-top: 10px;
+    padding-left: 13px;
+    background-color: #ebebeb;
+}
+
+.recommend .recom_bd li img {
+    border-right: 1px solid #cccccc;
+}
+
+.recommend .recom_bd .last {
+    border-right: 0;
+}
+
+
+/* ----------------------------------------------------------recommend end---------- */
+
+.jiadian .box-hd {
+    height: 26px;
+    margin-top: 31px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #d04c53;
+}
+
+.jiadian .box-hd h3 {
+    color: #c81623;
+    font-size: 18px;
+}
+
+.jiadian .box-hd li {
+    float: left;
+}
+
+.jiadian .box-hd a {
+    margin: 0 15px;
+    font-size: 12px;
+    color: #666666;
+    line-height: 26px;
+}
+
+.jiadian .box-hd .current {
+    color: #c81623;
+}
+
+.jiadian .box-bd {
+    height: 360px;
+}
+
+.jiadian .box-bd img {
+    transition: all 0.2s;
+}
+
+.jiadian .box-bd img:hover {
+    margin-left: 5px;
+}
+
+.jiadian .box-bd li {
+    float: left;
+}
+
+.jiadian .w210 ol {
+    overflow: hidden;
+}
+
+.jiadian .w210 li {
+    width: 88px;
+    height: 33px;
+    color: #666;
+    font-size: 12px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    margin-left: 15px;
+    line-height: 33px;
+}
+
+.w210 {
+    width: 210px;
+    background-color: #f9f9f9;
+}
+
+.w210 img {
+    width: 210px;
+}
+
+.w330 {
+    width: 330px;
+}
+
+.w330 img {
+    width: 330px;
+}
+
+.w220 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.w220:nth-child(odd) img {
+    height: 180px;
+}
+
+.fixedtool {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -682px;
+    transform: translateY(-50%);
+    width: 67px;
+    background-color: #fff;
+}
+
+.fixedtool li {
+    height: 32px;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.fixedtool li.tool_current {
+    color: #fff;
+    background-color: #c81623;
+}

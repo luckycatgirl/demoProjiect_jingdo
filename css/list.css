@@ -1,0 +1,129 @@
+.miaosha {
+    position: absolute;
+    left: 186px;
+    top: 30px;
+    padding: 1px;
+    padding-left: 8px;
+    border-left: 1px solid #b1191a;
+}
+
+.nav .dropdown ol li {
+    float: left;
+    margin-left: 30px;
+    line-height: 45px;
+    font-size: 16px;
+    margin-left: 38px;
+    color: #000;
+    font-weight: 700;
+}
+
+.nav .navitems li {
+    font-size: 14px;
+    color: #666;
+}
+
+.nav .navitems i {
+    font-family: 'icomoon';
+    font-size: 20px;
+    color: #666;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.nav .navitems .current {
+    color: #b1191a;
+}
+
+
+/* nav end ------------------*/
+
+.bigimg {
+    margin-bottom: 20px;
+}
+
+
+/* bigimg end ------------------*/
+
+.sk_list {
+    overflow: hidden;
+}
+
+.sk_list li {
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    width: 270px;
+    height: 466px;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.sk_list li:hover {
+    border: 1px solid #b1191a;
+}
+
+.sk_list li p {
+    color: #666;
+    font-size: 14px;
+}
+
+.sk_list .money {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #e60012;
+}
+
+.sk_list .money em {
+    font-size: 22px;
+    color: #e60012;
+    font-weight: 700;
+}
+
+.sk_list .money del {
+    font-size: 14px;
+    color: #a4a4a4;
+    padding-left: 10px;
+}
+
+.sk_list .rate span {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+}
+
+.sk_list .rate span:nth-child(odd) {
+    width: 61px;
+}
+
+.sk_list .rate span:nth-child(2) {
+    width: 133px;
+    height: 11px;
+    margin-right: 4px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #ed282e;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.sk_list .rate span i {
+    display: block;
+    width: 116px;
+    height: 11px;
+    background-color: #ed282e;
+}
+
+.sk_list a {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: block;
+    width: 290px;
+    height: 49px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 49px;
+    text-align: center;
+    background-color: #b1191a;
+}
